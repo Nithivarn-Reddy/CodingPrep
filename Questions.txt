@@ -16,7 +16,7 @@ Pairs with at least one prime are
 
 November 16th
 -------------
-Given a sorted array, A ,with possibly duplicated elements, find the indices of first and last occurences of a target element, x.Return -1 if target is not found.
+Given a sorted array, A ,with possibly duplicated elements, find the indices of first and last occurences of a target element, x. Return -1 if target is not found.
 
 Input: A = [1,3,3,5,7,8,9,9,9,15], target = 9
 Output: [6,8]
@@ -26,3 +26,11 @@ Output: [1,2]
 
 Input: A = [1,2,3,4,5,6,10], target = 9
 Output: [-1, -1]
+
+November 17th
+-------------
+Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length.
+Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+
+Input: nums = [10,10,20,20,30,30,40,40,50,50],
+Output: length = 5, with the first five elements of nums being modified to 10, 20, 30, 40, and 50 respectively.
