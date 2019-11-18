@@ -11,9 +11,6 @@ def checkprime(item):
 input_lst=[]
 n=int(input("Enter n"))
 a = list(map(int,input("Enter the list : ").strip().split()))[:n] 
-a.sort()
-max_item=a[-1]
-#print(max_item)
 prime_count=0;
 result='';
 for i in range (0,n):
