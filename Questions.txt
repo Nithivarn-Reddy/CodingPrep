@@ -48,6 +48,12 @@ Output: -321
 Input: 120
 Output: 21
 
+Input: -1463847412
+output: -2147483641
+
+Input: 1463847412
+output: 2147483641
+
 b)Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
 Find all the elements of [1, n] inclusive that do not appear in this array.
 Note:you have to do it without extra space and in O(n) runtime?
