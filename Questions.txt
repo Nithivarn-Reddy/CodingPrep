@@ -34,3 +34,52 @@ Do not allocate extra space for another array, you must do this by modifying the
 
 Input: nums = [10,10,20,20,30,30,40,40,50,50],
 Output: length = 5, with the first five elements of nums being modified to 10, 20, 30, 40, and 50 respectively.
+
+November 18th 
+--------------
+a) Given a 32-bit signed integer, reverse digits of an integer. Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−2^31,  2^31 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
+
+Input: 1534236469
+Output: 0
+
+Input: -123
+Output: -321
+
+Input: 120
+Output: 21
+
+Input: -1463847412
+output: -2147483641
+
+Input: 1463847412
+output: 2147483641
+
+b)Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
+Find all the elements of [1, n] inclusive that do not appear in this array.
+Note:you have to do it without extra space and in O(n) runtime?
+
+Input:
+[4,3,2,7,8,2,3,1]
+
+Output:
+[5,6]
+
+November 19th
+--------------
+Given a string, find the length of the longest substring without repeating characters.
+
+Input: "abcabcbb"
+Output: 3 
+Explanation: The answer is "abc", with the length of 3.
+
+Input: "pwwkew"
+Output: 3
+Explanation: The answer is "wke", with the length of 3. 
+             Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
+
+Input: "bbbbb"
+Output: 1
+Explanation: The answer is "b", with the length of 1.
+
+Input: "jbpnbwwd"
+output: 4 (jbpn)
