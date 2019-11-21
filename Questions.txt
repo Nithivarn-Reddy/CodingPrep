@@ -84,6 +84,8 @@ Explanation: The answer is "b", with the length of 1.
 Input: "jbpnbwwd"
 output: 4 (jbpn)
 
+November 20th
+--------------
 Given a string and a pattern, find the number of occurrences of the pattern in the given string along with the start index
 Input :
 String : GHJASDGHEFJTGHJ , Pattern : GHJ
@@ -91,3 +93,13 @@ Output :
 Ocurrences : 2 ; 
 Start indices : 0 and 12
 
+November 21st
+--------------
+Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string "".
+Input: ["flower","flow","flight"]
+Output: "fl"
+
+Input: ["dog","racecar","car"]
+Output: ""
