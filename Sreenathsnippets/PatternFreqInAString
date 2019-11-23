@@ -1,0 +1,38 @@
+class Program
+    {
+        static void Main(string[] args)
+        {
+            string str = "GHJASDGHEFJTGHJ";
+            string pattern = "GHJ";
+            ArrayList mylist = new ArrayList();
+            Console.WriteLine(CountFreq2(str, pattern));
+            Console.ReadLine();
+        }
+        
+        static int CountFreq2(string str,String pattern)
+        {
+            int count = 0;
+
+            int strlen = str.Length;
+            int pattlen = pattern.Length;
+            string temp = "";
+            for(int i=0;i<strlen;i++)
+            {
+                int j=0;
+                if(str[i]==pattern[j])
+                {
+                    temp = str.Substring(i, pattlen);
+                    if (temp.Equals(pattern))
+                        count++;
+                }    
+            }
+            return count;
+        }
+    }
+    
+    Algorithm:
+    1)If first character matches in both string and pattern
+        calculate pattern length and compare if substring and pattern are equal
+        If substring and pattern are eqaul,increment the count.
+        
+   Time: O(n)
