@@ -8,6 +8,7 @@ public class Prefix {
                 try {
                     if (p.charAt(j) != s.charAt(j))
                         p = p.substring(0, j);
+                        break;
                     }
                 catch (StringIndexOutOfBoundsException e) {
                     break;
