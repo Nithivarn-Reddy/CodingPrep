@@ -9,6 +9,8 @@ class RemoveAdjDuplicate {
                 s=s.replace(a,"");
                 i=0;j=0;
             }}
+        if(i==0)
+            s="";
         return s;
     }
     public static void main(String args[]){
